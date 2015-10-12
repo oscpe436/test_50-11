@@ -1,0 +1,16 @@
+Package: Lab6
+Type: Package
+Title: Three algorithms for solving the Knapsack Problem
+Version: 1.0
+Date: 2015-10-03
+Author: c(
+ person("Oscar", "Pettersson", email="oscpe436@student.liu.se", role=c("cre", "aut"),
+ person("Vuong", "Tran", email="vuotr306@student.liu.se", role="aut"))
+Maintainer: Everythings Vuongs fault, <vuotr306@student.liu.se>
+Description: The package has three algorithms for solving the Knapsack Problem.
+License: CC0
+Imports: Rcpp (>= 0.12.1)
+LinkingTo: Rcpp
+Suggests: testthat,
+    knitr
+VignetteBuilder: knitr
